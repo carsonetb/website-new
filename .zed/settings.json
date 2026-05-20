@@ -1,0 +1,26 @@
+{
+	"format_on_save": "on",
+ "lsp": {
+		"tailwindcss-language-server": {
+			"settings": {
+				"tailwindCSS": {
+					"experimental": {
+						"configFile": "src/routes/layout.css"
+					}
+				},
+				"includeLanguages": {
+					"svelte": "html"
+				},
+				"experimental": {
+					"classRegex": [
+						"class=\"([^\"]*)\"",
+						"class='([^']*)'",
+						"class:\\s*([^\\s{]+)",
+						"\\{\\s*class:\\s*\"([^\"]*)\"",
+						"\\{\\s*class:\\s*'([^']*)'"
+					]
+				}
+			}
+		}
+	}
+}

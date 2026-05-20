@@ -1,0 +1,24 @@
+@import url('https://googleapis.com');
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-background: #1a1b26;
+	--color-foreground: #1e202e;
+	--color-classes: #0db9d7;
+	--color-standard: #c0caf5;
+	--color-comments: #565f89;
+	--color-keyword: #bb9af7;
+	--color-link: #f7768e;
+	--color-string: #9ece6a;
+	--font-mono:
+		'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+		'Courier New', monospace;
+	--font-serif: 'Playfair Display', serif;
+}
+
+@layer base {
+	p {
+		@apply mb-4 text-lg leading-relaxed text-standard;
+	}
+}
