@@ -26,7 +26,7 @@
 		<div class="flex items-start">
 			<span>url: </span>
 			<span class="ml-2 flex-1 font-mono text-string not-italic"
-				>"<a href={url} target="_blank" class="underline">{url}</a>"</span
+				>"<a href={url} target="_blank" class="break-all underline">{url}</a>"</span
 			>
 		</div>
 	</h4>
