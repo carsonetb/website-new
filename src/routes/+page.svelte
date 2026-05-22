@@ -8,7 +8,7 @@
 	class="grid h-auto w-full grid-cols-1 bg-background p-1 md:p-6 xl:h-screen xl:grid-cols-2 xl:overflow-hidden"
 >
 	<div
-		class="mx-0 my-0 rounded-2xl bg-foreground px-5 py-5 pt-10 md:mx-5 md:my-5 md:px-10 2xl:px-40 2xl:py-27"
+		class="mx-0 my-0 rounded-2xl bg-foreground px-5 py-5 py-10 md:mx-5 md:my-5 md:px-10 xl:mx-0 xl:my-0 2xl:mx-5 2xl:my-5 2xl:px-30 2xl:py-20"
 	>
 		<div class="mb-10">
 			<h1 class="font-mono text-5xl xl:text-4xl 2xl:text-5xl">
@@ -56,8 +56,10 @@
 			<span class="font-mono text-classes">Python</span>,
 			<span class="font-mono text-classes">Rust</span>.
 		</p>
-		<p>I'm working on integrating a blog into this website, so that's coming soon!</p>
-		<p class="mt-5 font-serif text-comments italic 2xl:mt-20">
+		<p class="visible xl:invisible 2xl:visible">
+			I'm working on integrating a blog into this website, so that's coming soon!
+		</p>
+		<p class="mt-5 font-serif text-comments italic xl:-mt-14 2xl:mt-20">
 			ESTRAGON: Charming spot. Inspiring prospects. Let's go. <br />
 			VLADIMIR: We can't. <br />
 			ESTRAGON: Why not? <br />
