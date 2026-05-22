@@ -7,9 +7,11 @@
 <div
 	class="grid h-auto w-full grid-cols-1 bg-background p-1 md:p-6 xl:h-screen xl:grid-cols-2 xl:overflow-hidden"
 >
-	<div class="mx-0 my-0 rounded-2xl bg-foreground px-5 py-27 md:mx-5 md:my-5 md:px-20 2xl:px-40">
+	<div
+		class="mx-0 my-0 rounded-2xl bg-foreground px-5 py-5 pt-10 md:mx-5 md:my-5 md:px-10 2xl:px-40 2xl:py-27"
+	>
 		<div class="mb-10">
-			<h1 class="font-mono text-5xl">
+			<h1 class="font-mono text-5xl xl:text-4xl 2xl:text-5xl">
 				<span class="text-classes">CarsonBates</span> <span class=" text-standard">&#123</span>
 			</h1>
 			<h4 class="ml-8 font-serif text-2xl text-comments italic">
@@ -29,7 +31,7 @@
 			<h4 class="ml-8 font-serif text-2xl text-comments italic">
 				<a href={resolve('/photography' as any)} target="_blank" class=" text-link">photography</a>
 			</h4>
-			<h1 class="font-mono text-5xl text-standard">&#125</h1>
+			<h1 class="font-mono text-5xl text-standard xl:text-4xl 2xl:text-5xl">&#125</h1>
 		</div>
 		<p>
 			I'm interested in
@@ -55,7 +57,7 @@
 			<span class="font-mono text-classes">Rust</span>.
 		</p>
 		<p>I'm working on integrating a blog into this website, so that's coming soon!</p>
-		<p class="mt-20 font-serif text-comments italic">
+		<p class="mt-5 font-serif text-comments italic 2xl:mt-20">
 			ESTRAGON: Charming spot. Inspiring prospects. Let's go. <br />
 			VLADIMIR: We can't. <br />
 			ESTRAGON: Why not? <br />
