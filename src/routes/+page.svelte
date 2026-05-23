@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" src="https://keepandroidopen.org/banner.js?hidebutton=off">
 	import { resolve } from '$app/paths';
 	import Bold from '../components/Bold.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
