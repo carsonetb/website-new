@@ -5,6 +5,8 @@
 @theme {
 	--color-background: #1a1b26;
 	--color-foreground: #1e202e;
+	--color-codebg: #1a1b1c;
+	--color-blogbg: #0f0f15;
 	--color-classes: #0db9d7;
 	--color-standard: #c0caf5;
 	--color-comments: #565f89;
@@ -15,10 +17,48 @@
 		'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
 		'Courier New', monospace;
 	--font-serif: 'Playfair Display', serif;
+	--font-serious: 'Times New Roman', Times, serif;
 }
 
 @layer base {
 	p {
 		@apply mb-4 text-lg leading-relaxed text-standard;
+	}
+}
+
+@layer components {
+	.blog-content {
+		@apply mx-auto prose w-full max-w-3xl p-8 prose-slate prose-invert md:prose-lg;
+	}
+
+	.blog-content h1,
+	.blog-content h2,
+	.blog-content h3 {
+		@apply my-4 font-serious font-bold text-white italic;
+	}
+
+	.blog-content p,
+	.blog-content ol,
+	.blog-content pre {
+		@apply my-4 text-justify font-serious text-xl leading-10 text-white;
+	}
+
+	.blog-content ul {
+		@apply my-0 text-justify font-serious text-xl leading-7;
+	}
+
+	.blog-content a {
+		@apply text-link no-underline transition-colors hover:underline;
+	}
+
+	.blog-content img {
+		@apply rounded-xl border shadow-sm;
+	}
+	.blog-content :not(pre) > code {
+		@apply rounded bg-codebg px-1 py-0.5 font-mono text-sm font-thin text-white before:content-none after:content-none;
+	}
+
+	.blog-content pre {
+		@apply border-none bg-transparent p-0 shadow-none;
 	}
 }

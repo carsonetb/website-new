@@ -29,7 +29,13 @@
 				>
 			</h4>
 			<h4 class="ml-8 font-serif text-2xl text-comments italic">
-				<a href={resolve('/photography' as any)} target="_blank" class=" text-link">photography</a>
+				<a href={resolve('/photography' as any)} class=" text-link">photography</a>
+			</h4>
+			<h4 class="mt-2 ml-8 font-serif text-2xl text-comments italic">
+				<a href={resolve('/blog' as any)} class=" text-link">blog</a>
+			</h4>
+			<h4 class="mt-2 ml-8 font-serif text-2xl text-comments italic">
+				<a href={resolve('/rss.xml' as any)} target="_blank" class=" text-link">rss</a>
 			</h4>
 			<h1 class="font-mono text-5xl text-standard xl:text-4xl 2xl:text-5xl">&#125</h1>
 		</div>
@@ -56,10 +62,7 @@
 			<span class="font-mono text-classes">Python</span>,
 			<span class="font-mono text-classes">Rust</span>.
 		</p>
-		<p class="visible xl:invisible 2xl:visible">
-			I'm working on integrating a blog into this website, so that's coming soon!
-		</p>
-		<p class="mt-5 font-serif text-comments italic xl:-mt-14 2xl:mt-20">
+		<p class="font-serif text-comments italic xl:mt-5 2xl:mt-20">
 			ESTRAGON: Charming spot. Inspiring prospects. Let's go. <br />
 			VLADIMIR: We can't. <br />
 			ESTRAGON: Why not? <br />

@@ -7,6 +7,7 @@
 </script>
 
 <svelte:head>
+	<title>carsonetb dot com</title>
 	<script src="https://keepandroidopen.org/banner.js?size=minimal"></script>
 
 	<link
