@@ -1,4 +1,4 @@
-<script lang="ts" src="https://keepandroidopen.org/banner.js?hidebutton=off">
+<script lang="ts">
 	import { resolve } from '$app/paths';
 	import Bold from '../components/Bold.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
@@ -19,13 +19,13 @@
 				<a
 					href="https://github.com/carsonetb"
 					target="_blank"
-					class="font-mono text-link not-italic">carsonetb</a
+					class="font-mono text-link not-italic">carsonetb <i class="icon-github"></i></a
 				>
 			</h4>
 			<h4 class="ml-8 font-serif text-2xl text-comments italic">
 				contact:
 				<a href="mailto:me@carsonetb.com" target="_blank" class="font-mono text-link not-italic"
-					>me@carsonetb.com</a
+					>me@carsonetb.com <i class="icon-envelope"></i></a
 				>
 			</h4>
 			<h4 class="ml-8 font-serif text-2xl text-comments italic">
