@@ -24,7 +24,7 @@
 
 	<div class="ml-10">
 		{#each data.posts as post (post)}
-			<div class="flex h-min flex-col rounded-2xl bg-foreground p-10">
+			<div class="my-10 flex h-min flex-col rounded-2xl bg-foreground p-10">
 				<a href={`/blog/${post.slug}`} class="">
 					<h2 class="mb-2 font-serious text-4xl text-standard">{post.title}</h2>
 					<p class="-mb-1 ml-7 font-serious text-2xl text-comments italic">{post.date}</p>

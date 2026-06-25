@@ -6,7 +6,7 @@
 	const Content = data.content;
 </script>
 
-<div class="h-screen bg-blogbg">
+<div class="h-max bg-blogbg">
 	<article class="blog-content">
 		<a href={resolve('/blog')} class="font-mono text-2xl text-link">[back]</a>
 
