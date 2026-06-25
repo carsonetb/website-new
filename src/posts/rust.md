@@ -32,12 +32,12 @@ The graph-like structure of data has another consequence, one which is too often
 
 From this information, there are two reasons why OOP languages experience a less-than-optimal performance.
 
-- Pointers: When an address in memory is loaded to the CPU, to improve efficiency adjacent memory is loaded into a so-called "cache" which is much, much faster to load from than standard memory. Pointers tend to not point to data which is next to anything useful, especially when the data structure of the program is disconnected and graph-like. This naturally degrades the efficiency of the program.
+- Pointers: When an address in memory is loaded to the CPU, to improve efficiency adjacent memory is loaded into a so-called "cache" which is much, much faster to load from than standard memory. Pointers tend to not point to data which is next to anything useful, especially when the data structure of the program is disconnected and graph-like. Because the cache cannot be used as efficiently, the efficiency of the program naturally degrades.
 - Garbage Collection: Because of the complexity of these algorithms and their general inability to run in parallel with the actual program, the performance of systems which handle a large amount of data will degrade. Unfortunately, large amounts of data is a characteristic of many programming projects.
 
-But, the argument goes, these cons are greatly outweighed by the pros! What about modularity, and reusability, and flexibility, and _scalability_? Many of these advantages are also preasent in Rust, made evident by the many large systems deployed today which are written in Rust.
+But, the argument goes, these cons are greatly outweighed by the pros! What about modularity, and reusability, and flexibility, and _scalability_? Many of these advantages are also present in Rust, made evident by the many large systems deployed today which are written in Rust.
 
-But code can be optimized, and today's processors are certainly powerful enough to handle a little inefficiency. Yet, software's largest problems seem to be bugs and performance issues, the two of which are also the greatest weaknesses of Object Oriented Programming. To see a correlation is reasonable.
+But, they will say, code can be optimized, and today's processors are certainly powerful enough to handle a little inefficiency. Yet, software's largest problems seem to be bugs and performance issues, the two of which are also the greatest weaknesses of Object Oriented Programming. To see a correlation is reasonable.
 
 Something has to change. But what are we to do without our precious classes? What of scope? What of abstraction?
 
@@ -53,9 +53,9 @@ Certainly, this paradigm of strict pureness is not the answer. But how will we m
 
 ## 3. Functional Ownership
 
-Now that we have explored the two extremes, we may begin to develop the middle ground, and explore some of the features of Rust. We know that Objects maintain ownership of all their data, but what of functions? All data is owned, so naturally functions own their arguments. But if the argument is owned, then the data will be deleted at the end of the function. Because of this, there are no disadvantages to allowing the function to make that data mutable. The same goes for data which is created within the function.
+Now that we have explored the two extremes, we may begin to develop the middle ground, and explore some of the features of Rust. We know that Objects maintain ownership of all their data, but what of functions? All data is owned, so naturally functions own their arguments. But if the argument is owned, then the data will be deleted at the end of the function, or returned. Because of this, there are no disadvantages to allowing the function to make that data mutable. The same goes for data which is created within the function (or, local to the function's scope).
 
-There is one disadvantage. If we pass any data to a function, we cannot be allowed to further use that data, for fear that it may have been mutated. This in itself is not terrible, but we must consider that functions also return data. If a function returns data which references its argument, there could be a case of shared ownership.
+There is one disadvantage. If we pass any data to a function, we cannot be allowed to further use that data, for fear that it may have been mutated. This in itself is not terrible, but we must consider that functions also return data. If a function returns data which references its argument, there could be a case of shared ownership. In technical terms, we say the data was _moved_ into the function.
 
 We have gained some flexibility, but how can we pass the same data to multiple functions?
 
@@ -63,13 +63,17 @@ We have gained some flexibility, but how can we pass the same data to multiple f
 
 We will introduce a new type of parameter, one which is not owned. A reference can be passed to a function, which can then read the data, but not mutate it. We can have as many references to data as we want, provided that the data is not deleted before the reference.
 
-Additionally, sometimes we want a function to mutate data which we use later. For this we will use the mutable reference. Importantly, if a mutable reference exists to some data, there may not be any other references to that data, mutable or immutable.
+Additionally, sometimes we want a function to mutate data which we use later. For this we will use a mutable reference. Importantly, if a mutable reference exists to some data, there may not be any other references to that data, mutable or immutable.
 
 ## 5. The Middle Ground
 
 The features and ideas described in the previous three sections are at the core of Rust, and are the features which allow it to be at the same time memory safe and without a garbage collector. They are also the reason Rust's runtime errors (dubbed "panics") are so debuggable, as their proximity to the source of the error is generally low. Rust has many more features, namely lifetimes, which increase the flexibility of the language further than previously described. The Rust features like the build environment, formatting, compile errors, type system, syntax, macros, and error propagation are all incredibly well thought out and enjoyable to use.
 
+Even with the many improvements Rust has made over the strictly functional paradigm, new learners still tend to view it as a much stricter language than the Object Oriented one they are used to. While they are right to say that Rust is more strict, it is rash to conclude that therefore Rust is inflexible, and that inflexibility is a negative quality. To the contrary, this strictness is the reason Rust is so safe. It also tends to force developers to write better structured programs, and to avoid abstraction unless it is actually necessary. These traits don't make developers feel great in the short term, but it feels a lot worse to debug memory corruption problems.
+
 Many a programmer has become frustrated with the _status quo_ of Object Oriented programming languages, and gone to build their own. Because Rust is the middle ground of two different opposing paradigms, it supports so many styles of programming that so many alternatives become unnecessary.
+
+If you have become convinced of the virtues of Rust, or at least are interested enough to try it, I would recommend reading the [rust book](https://doc.rust-lang.org/book/) to begin learning the language. If you wish to have a lower-level understanding of things like pointers and memory, it might be a good idea to [learn C](https://beej.us/guide/bgc/html/split/).
 
 ## Post
 

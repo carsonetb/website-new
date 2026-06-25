@@ -44,7 +44,7 @@
 	}
 
 	.blog-content ul {
-		@apply my-0 text-justify font-serious text-xl leading-7;
+		@apply my-4 text-justify font-serious text-xl leading-10 text-white;
 	}
 
 	.blog-content a {
