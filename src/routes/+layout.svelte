@@ -8,11 +8,10 @@
 
 <svelte:head>
 	<title>carsonetb dot com</title>
-	<script src="https://keepandroidopen.org/banner.js?size=minimal"></script>
+	<!-- use offline keep android open script -->
+	<script src="banner.js?size=mini&hidebutton=off&v=2"></script>
 
-	<link
-		rel="icon"
-		href="https://github.com/carsonetb/website-main/blob/main/assets/profile.png?raw=true"
-	/></svelte:head
->
+	<!-- local static favicon is better than relying on github's horrendous uptime for the image -->
+	<link rel="icon" href="favicon.png" />
+</svelte:head>
 {@render children()}
