@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
+import remarkFootnotes from 'remark-footnotes';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,7 +12,8 @@ const config = {
 			extensions: ['.md'],
 			smartypants: {
 				dashes: 'oldschool'
-			}
+			},
+			remarkPlugins: [remarkFootnotes]
 		})
 	],
 	compilerOptions: {
