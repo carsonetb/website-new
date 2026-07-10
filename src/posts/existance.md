@@ -4,7 +4,7 @@ date: 'on July 9, 2026'
 description: 'Exploring a paradox concerning unanswerable questions and ladders.'
 ---
 
-Religion and spirituality serve a very specific purpose in humanity, and have remained for so long for a very specific reason. It attempts to provide an explanation for the nature of existance, and also consciousness, problems which have not been and may never be solved by science.
+Religion and theism serve a very specific purpose in humanity, and have remained for so long for a very specific reason. It attempts to provide an explanation for the nature of existance, and also consciousness, problems which have not been and may never be solved by science.
 
 ## Why
 
