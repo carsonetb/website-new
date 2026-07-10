@@ -4,17 +4,17 @@ date: 'on July 9, 2026'
 description: 'Exploring a paradox concerning unanswerable questions and ladders.'
 ---
 
-Religion and theism serve a very specific purpose in humanity, and have remained for so long for a very specific reason. It attempts to provide an explanation for the nature of existance, and also consciousness, problems which have not been and may never be solved by science.
+Religion and theism serve a very specific purpose in humanity, and have remained for so long for a very specific reason. It attempts to provide an explanation for the nature of existence, and also consciousness, problems which have not been and may never be solved by science.
 
 ## Why
 
-A question which is central to human existance. Religion attempts to answer the question _why exist_, and I ask the question _why religion_? It's important to specify exactly what religion means in this context. Different religions have vastly different beliefs but generally they share the notion of a higher power. Something that created the universe. Because science currently cannot prove something like this true or false, many people choose to use this as an ultimate explanation for their universe. And while holding a belief of this nature may be comforting, even if we presume it to be true it does not answer any questions.
+A question which is central to human existence. Religion attempts to answer the question _why exist_, and I ask the question _why religion_? It's important to specify exactly what religion means in this context. Different religions have vastly different beliefs but generally they share the notion of a higher power. Something that created the universe. Because science currently cannot prove something like this true or false, many people choose to use this as an ultimate explanation for their universe. And while holding a belief of this nature may be comforting, even if we presume it to be true it does not answer any questions.
 
-The questions _what created existance_ and _what created god_ are identical in nature. They both ask for the creator of something that every other thing came from. And so if we presume a god exists we have answered one question and created another, and gone up one rung on the ladder of creation. So, when considering existance, there seems to be no point in debating whether or not there is a god.
+The questions _what created existence_ and _what created god_ are identical in nature. They both ask for the creator of something that every other thing came from. And so if we presume a god exists we have answered one question and created another, and gone up one rung on the ladder of creation. So, when considering existence, there seems to be no point in debating whether or not there is a god.
 
 ## Magic
 
-Generally, we describe magic as something which cannot be explained by science---something supernatural. Yet, all of physics is governed by four [fundamental interactions](https://en.wikipedia.org/wiki/Fundamental_interaction), specifically gravity, electromagnetism, and weak and strong interaction. These interactions can only be modeled, and _by definition_ cannot be reduced. Therefore, their cause is in the same domain of unknowability as the nature of existance.
+Generally, we describe magic as something which cannot be explained by science---something supernatural. Yet, all of physics is governed by four [fundamental interactions](https://en.wikipedia.org/wiki/Fundamental_interaction), specifically gravity, electromagnetism, and weak and strong interaction. These interactions can only be modeled, and _by definition_ cannot be reduced. Therefore, their cause is in the same domain of unknowability as the nature of existence.
 
 ## Consciousness
 
