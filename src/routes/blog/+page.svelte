@@ -22,7 +22,7 @@
 		</p>
 	</div>
 
-	<div class="ml-10">
+	<div class="ml-10 xl:overflow-y-auto">
 		{#each data.posts as post (post)}
 			<div class="my-10 flex h-min flex-col rounded-2xl bg-foreground p-10">
 				<a href={`/blog/${post.slug}`} class="">
