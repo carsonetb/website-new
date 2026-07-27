@@ -6,9 +6,9 @@ description: 'A modern economic system based on Municipalism and Communism.'
 
 Disclaimer: I am not a professional and this is just a theory (which I believe to have some merit). If you have any opinions or criticisms, please [email me](me@carsonetb.com)!
 
-There are numerous economic and social theories, all of which seem to have some major downside. For example, with capitalism the downside is exploitation of the working class, and with communism the downside is the necesity of a planned economy and a central authority, which is logistically very hard. With left-libertarianism (and libertarianism in general), problems arise because of the lack of a government to defend and correct the country's economy.
+There are numerous economic and social theories, all of which seem to have some major downside. For example, with capitalism the downside is exploitation of the working class, and with communism the downside is the necessity of a planned economy and a central authority, which is logistically very hard. With left-libertarianism (and libertarianism in general), problems arise because of the lack of a government to defend and correct the state's economy.
 
-Knowing the downsides of these models, we should try to develop something which prevents major issues such as the ones mentioned before from occuring. First, lets look at all the options, and at some systems which are working well today.
+Knowing the downsides of these models, we should try to develop something which prevents major issues such as the ones mentioned before from occuring. First, let's look at all the options, and at some systems which are working well today.
 
 ## Liberalism
 
@@ -26,9 +26,9 @@ So the goal of our society will instead be to increase equality[^2], especially 
 
 Communism argues that in order to increase equality, there must be a powerful state which manages the economy, ensuring that goods can be distributed to all people. Unfortunately, this method has severe downsides, both of which are responsible for a good part of the western fear of left-wing authoritarianism.
 
-First is the problem of knowledge. In order for a state to be able to manage an economy, it first needs to know what every citizen needs. The only way to effectively do this is to heavily surveil every person in your country. If a state ever does this, any hope of it eventually "withering away" goes away quite fast.
+First is the problem of knowledge. In order for a state to be able to manage an economy, it first needs to know what every citizen needs. The only way to effectively do this is to heavily surveil every person in the state. If a state ever does this, any hope of it eventually "withering away" goes away quite fast.
 
-Second is the problem of estimation[^3]. To get the right amount of production so that every person is accomodated requires highly complex calculations and large amounts of data. If these are done wrong, there will either be a surplus or a shortage of goods. In the best cases this is simply a small inefficiency, in the worst it can cause millions of deaths.
+Second is the problem of estimation[^3]. To get the right amount of production so that every person is accommodated requires highly complex calculations and large amounts of data. If these are done wrong, there will either be a surplus or a shortage of goods. In the best cases this is simply a small inefficiency, in the worst it can cause millions of deaths.
 
 Clearly, this style of government is top-heavy. The natural opposition to this is to build a society which is more spread out, and has no central authority.
 
@@ -36,7 +36,7 @@ Clearly, this style of government is top-heavy. The natural opposition to this i
 
 The far-left libertarian ideology is less commonly found in history. And has quite a few variations. Fundamentally, libertarianism rejects the idea of the state, but beyond that there is much disagreement. Some people argue for a more individualist approach (for example allowing the concept of private property). [Others](https://en.wikipedia.org/wiki/Murray_Bookchin) argue that groups of people should be organized into municipalities which are self-governing.
 
-Regardless of the specific interpretation, libertarianism faces a fatal flaw. In a world where products cannot be produced everywhere (that is, every society which has advanced beyond the most basic agricultural systems of production), there will be a necesity for a complex supply chain. Unfortunately, if these municipalities tried to enact these supply chains, they would likely not be successful due to an inability to coordinate.
+Regardless of the specific interpretation, libertarianism faces a fatal flaw. In a world where products cannot be produced everywhere (that is, every society which has advanced beyond the most basic agricultural systems of production), there will be a necessity for a complex supply chain. Unfortunately, if these municipalities tried to enact these supply chains, they would likely not be successful due to an inability to coordinate.
 
 To continue the analogy, this style of "government" is bottom-heavy. We need some sort of overarching government, but we need to be very careful as to how we implement it.
 
@@ -52,7 +52,7 @@ To provide an incentive, we make a rule for the algorithm. The value of the reso
 
 In western society, currency is the most common indicator of value. This makes sense in a Capitalist system, but currency really has no place in our society. Instead, we can simply value any good by the (median) hours it took to produce[^4].
 
-But, what if a certain municipality is very inefficient at producing something compared to the average? We don't want to starve this municipality from the outside. Therefore we will modify the valuation system slightly. Instead, the algorithm will, based on some constant, choose a value in between the average hours and actual hours. This way there is some incentive for innovation (decreasing your actual hours below the average), and also protection from complete failure. 
+But, what if a certain municipality is very inefficient at producing something compared to the average? We don't want to starve this municipality from the outside. Therefore we will modify the valuation system slightly. Instead, the algorithm will, based on some constant, choose a value in between the average hours and actual hours. This way there is some incentive for innovation (decreasing your actual hours below the average), and also protection from complete failure.
 
 In the most extreme cases, there should be a way for municipalities to petition parliament for extra resources or even workers to increase production capacity or respond to natural events.
 
@@ -72,19 +72,39 @@ It seems that because humans are subject to cultural shifts, in a Capitalist wor
 
 Some jobs, however, are simply too stressful to rely on this incentive. For these, certain material benefits can be decided for people who choose to work those jobs.
 
+## Social
+
+After so much optimization of the economic system, a gaping hole has emerged, one on which the livelihood of our citizens depends upon. We have so far only thought about the relationship between municipalities and the state. That is because in order to prevent overreach of the state (authoritarianism) we must have fundamental separation between the relationships between state and municipality, and municipality and citizen. They must be independent, and entirely separable.
+
+So now we should consider the relationship between municipality and citizen. Fundamental to our society is a culture of goodwill. Everyone should have a social circle with whom they feel comfortable consistently sharing goods and services with no monetary incentive.
+
+Obviously, this culture cannot possibly extend to intermunicipal import, specialized services, or luxury goods. Furthermore, it does not address the issue of importing goods from the statewide supply chain. We need to have a generic system which can allow a citizen's labor hours to be converted into a method of purchasing specialized or luxury goods of an equivalent value. For this we introduce the concept of "vouchers", which are similar but distinct to a currency. All citizens receive vouchers for food (housing, healthcare, and public transit are _implicit_ and don't require vouchers). Vouchers for anything more are distributed based on the hours any citizen spends making a contribution to society. This is in the form of typical labour, educating themselves, producing artwork, doing open source work, community service, etc.
+
+Vouchers differentiate from typical currency in two important ways. First, they expire after one year. Vouchers are impermanent just like the goods they represent. Second, when a voucher is exchanged for an item, the voucher becomes void and is destroyed[^6].
+
+There are many forms of contribution to society which are rewarded in this system that would typically go unrewarded or at least disincentivized in a Capitalist system. For example, most of the arts, open source hardware and software development, education, and elder care are some of the unpaid forms of contribution which people commonly undergo. People who are passionate about these crafts are typically crushed under Capitalist systems.
+
+There will, however, still be a small portion of society who refuse to work in any capacity. In this extreme case, healthcare professionals can be sent to help the person in the likely case that they are experiencing issues like depression or purposelessness. If it happens that the person refuses to work on a different matter, such as civil disobedience, society can afford to simply ignore them.
+
+Importantly, in this system there is no case where the state needs to know anything about any specific citizen (only the municipality). Thus, citizens are protected from mass government surveillance and authoritarianism.
+
+## Outside Influence
+
+No modern state is self-sustaining. It has to import necessary resources from other Capitalist countries which will only do business in currency. To do this, our state will build a large and diversified [sovereign wealth fund](https://en.wikipedia.org/wiki/Sovereign_wealth_fund). A certain percentage of global production will be exported to other states in exchange for their currency. This currency can then be invested, stockpiled, or used to buy goods from other states.
+
+Importantly, this fund needs to be very diverse (that is, it is invested in many different countries, currencies, and markets), so that the state can internally balance out the loss of failing sectors with the profit from lucrative ones.
+
 ## Government
 
 This part is going to be more about the political systems and less about the fundamental economics.
 
-The first part of a government is to design a constitution. Everything described before and hereafter should be constitutionally protected. Policy beyond that will be passed by a parliament. Each municipality will send one member to the parliament, which can then vote on policy[^6].
+The first part of a government is to design a constitution. Everything described before and hereafter should be constitutionally protected. Policy beyond that will be passed by a parliament. Each municipality will send one member to the parliament, which can then vote on policy[^7].
 
-## Problems
+## Transition
 
-There are a few issues that can be forseen with this system. Neither of them are fundamental, but rather they arise when the system interacts with the real world and other countries.
+There is one problem which looms over every post-Capitalist ideology. That is, how does a state transition from a Capitalist state to a Socialist one? This is an incredibly difficult problem to solve because Capitalism systematically opposes any attempt at subversion. Generally the two forms of transition are through revolution or reform. The two options seem to both have upsides and downsides, and it's difficult to decide which one is better.
 
-- Transition: One of the hardest problems in any far-left theory is figuring out how to move a society from a Capitalist system to a Socialist one.
-
-- Outside Influence: Very few countries rely simply on their own production, and so we will have to figure out how to do business with these other countries while not having an official currency of our own. Although, I do think this problem is definitely surmountable.
+I might write about how I would address this problem within the Managed Municipalist system in a future blog post, but for now it is outside the scope of this essay.
 
 ## Conclusion
 
@@ -99,7 +119,10 @@ I believe this system could work very well, although it is in its early stages a
 
 [^3]: This issue is not quite as bad as it was before, because of modern computation equipment.
 
-[^4]: Some hours are clearly more valuable than others. For example, time spent working in a coal mine is clearly more valuable than time spent monitoring a water purification system. For this reason, there should be a democratic process state-wide to increase the value of certain hours
+[^4]:
+    Some hours are clearly more valuable than others. For example, time spent working in a coal mine is clearly more valuable than time spent monitoring a water purification system. For this reason, there should be a democratic process state-wide to increase the value of certain hours.
+    
+    Additionally, these systems of economics as specified are vague. In the future I will do work to precisely describe these mathematical processes, as well as likely constructing the entire algorithm.
 
 [^5]:
     Ryan, Richard M., and Edward L. Deci. "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." _American psychologist_ 55, no. 1 (2000): 68. (Viewable at [this link](<https://static1.squarespace.com/static/5c96d4ec0cf57d91390bd370/t/5cae46c1ec212dac4006d7d4/1554925256116/SDTandintmotive+(1).pdf>)).
@@ -109,4 +132,9 @@ I believe this system could work very well, although it is in its early stages a
     Moll, Jorge, Frank Krueger, Roland Zahn, Matteo Pardini, Ricardo de Oliveira-Souza, and Jordan Grafman. "Human fronto–mesolimbic networks
     guide decisions about charitable donation." _Proceedings of the National Academy of Sciences_ 103, no. 42 (2006): 15623-15628. (Viewable at [this link](https://www.pnas.org/doi/pdf/10.1073/pnas.0604475103)).
 
-[^6]: I won't go into any further detail as to how the government would operate, because I haven't thought about it too thoroughly and the workings of a government requires much consideration.
+[^6]:
+    The economic reasons for this restriction, which might seem unintuitive for those coming from a Capitalist system. The important distinction to understand is that while typical currency represents material goods (of which there is a relatively fixed amount, and so there is a fixed amount of currency), vouchers represent _labour hours_, of which there is an unlimited amount. If someone works an hour, another voucher is created. In order to prevent inflation (and the creation of a complex market outside the one explicitly designed), those vouchers must be destroyed immediately after they are exchanged.
+    
+    This might lead to the argument that the shopkeepers aren't properly incentivised to sell goods, because they don't receive any value. This is another output of the Capitalist mindset, and it is also important to understand that _this is a good thing_. The shopkeepers are paid for their time instead of their sales. Instead of optimizing for quantity over quality, manufacturers can focus on honing their craft and producing quality goods.
+
+[^7]: I won't go into any further detail as to how the government would operate, because I haven't thought about it too thoroughly and the workings of a government requires much consideration.
