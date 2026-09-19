@@ -16,9 +16,17 @@
 
 		<p class="text-justify font-serious text-2xl leading-12">
 			This blog is for writing about some of my more serious opinions. For this reason, I've chosen
-			a more serious font, Times New Roman (or possibly your default serif font). Probably, most of
-			the things I will write about will be programming related, but I might choose to write about
-			other things. I've chosen not to migrate posts from my old website.
+			a more serious font, Times New Roman (or possibly your default serif font). At first, I
+			expected to write mostly programming-related things in here, but over time I've found that it
+			is much more interesting to write about philosophy and politics. Please read what I write with
+			scrutiny, and I hope that even if I don't convince you of my opinions, I have at least made
+			you think about them.
+		</p>
+
+		<p class="text-justify font-serious text-2xl leading-12">
+			Please email me with feedback, criticism, or any thoughts you might have! I tend to make
+			errors in my writing and don't really like to spend much time proof-reading, so please correct
+			me if you find any.
 		</p>
 	</div>
 
